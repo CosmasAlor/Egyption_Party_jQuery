@@ -1,0 +1,95 @@
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --font-family: 'Roboto', sans-serif;
+    --background-color: #d62e3399;
+}
+.btn {
+    background-color: var(--background-color);
+    border-color: #E68285;
+    border-bottom: 3px solid var(--background-color);
+}
+
+
+.heading {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+} 
+
+.head {
+
+    background-color: var(--background-color);
+}
+
+.ml-25 {
+    margin-left: 25%;
+}
+.text-center #menu-open {
+    position: absolute;
+    left: 20;
+    font-size: 35px;
+    cursor :pointer
+}
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it's above other content */
+    }
+      
+
+
+ul {
+    list-style-type: none;
+}
+.menu ul li{
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.timer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    color: white;
+
+
+}
+#timer {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+}
+
+.item {
+    border: 3px blanchedalmond solid;
+    padding: 50px
+}
+
+.singer, #timer,#singer, .contact {
+    margin-top: 5%;
+    padding-bottom: 20px;
+}

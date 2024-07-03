@@ -1,0 +1,153 @@
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <link rel="stylesheet" href="./css/skitter.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>jQuery</title>
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+
+<div class="heading">
+
+  <div class="head min-vh-100 d-flex justify-content-center align-items-center" id="head">
+      <div class="">
+        <div class="text-center">
+          <h1>Egyption Party</h1>
+          <p>Let's have Fun</p>
+          <span id="menu-open">☰ open</span>
+      </div>
+    </div>
+  </div> 
+
+ <div class="menu bg-dark text-white w-0 d-none" id="menu">
+  <div class="close d-flex justify-content-end ">
+    <button class="btn btn-close-white text-dark bg-light m-3">X</button>
+  </div>
+
+  <ul>
+    <li>Menu Item 1</li>
+    <li>Menu Item 2</li>
+    <li>Menu Item 3</li>
+  </ul>
+  </div>
+</div>
+
+<div class="container p-5 " id="singer">
+  <div class="singer w-75 m-auto">
+    <div class="items text-center">
+      <button class="btn btn-danger m-0 p-3 w-100 S-head rounded-0">Singer One</button>
+      <p class="bg-body-secondary p-3 S-body m-0">"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        amet autem labore nisi hic!"</p>
+      
+      <button class="btn btn-danger m-0 p-3 w-100 S-head rounded-0">Singer Two</button>
+      <p class="bg-body-secondary p-3 d-none S-body m-0">"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        amet autem labore nisi hic!"</p>
+      
+      <button class="btn btn-danger m-0 p-3 w-100 S-head rounded-0">Singer Three</button>
+      <p class="bg-body-secondary p-3 d-none S-body m-0">"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        Eaque ducimus nostrum esse consequatur vitae necessitatibus
+        amet autem labore nisi hic!"</p>
+    </div>
+    
+
+
+
+  </div>
+</div>
+
+<div  id="timer">
+  <div class="timer d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 ">
+          <div class="item text-center ">
+            <h3 > 99 Days </h3>
+           
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="item text-center">
+         <h3>    9 H</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="item text-center">
+          <h3>   99 M</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 ">
+          <div class="item text-center">
+          <h3>   99 S </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="contact">
+  <div class="container text-center p-5">
+    <h2>Join Us</h2>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row p-3">
+      <div class="col-6 text-start">
+        <h3 class="text-center">contact Info</h3>
+        <p class="lead text-start">Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.</p>
+        <ul class="p-3">
+            <li><i class="fa fa-map-marker p-2" aria-hidden="true"></i> New Street 22545, Nexa Road, New York City, USA </li>
+            <li><i class="fa fa-envelope p-2" aria-hidden="true"></i> Hello@gmail.com</li>
+            <li><i class="fa fa-phone p-2" aria-hidden="true"></i> 01111111111</li>
+        </ul>
+
+        <div class="social-list text-center">       
+            <i class="fab fa-twitter fa-fw"></i>
+            <i class="fab fa-facebook-f fa-fw"></i>
+            <i class="fab fa-instagram fa-fw"></i>
+            <i class="fab fa-dribbble fa-fw"></i>
+            <i class="fab fa-pinterest fa-fw"></i>
+        </div>
+        
+      </div>
+      <div class="col-6">
+        <div class="form" >
+          <input type="text" class="form-control m-3 " placeholder="Name"/>
+          <input type="email" class="form-control m-3 " placeholder="Email"/>
+          <textarea name="text" class="form-control m-3 " cols="30" rows="10" placeholder="Massage" id="text-area"></textarea>
+          <h4><span id="remainingCharacters" class="text-danger">100</span> Character Reamining</h4>
+          <button class="btn btn-danger" id="button">Send Massage</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
