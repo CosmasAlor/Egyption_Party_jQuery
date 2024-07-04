@@ -28,7 +28,7 @@ $('#menu-open').on('click', function () {
 $('.S-head').on('click', function() {
     var $nextBody = $(this).next('.S-body');
     $('.S-body').not($nextBody).addClass('d-none');
-    $nextBody.slideToggle(300).toggleClass('d-none');
+    $nextBody.slideToggle().toggleClass('d-none');
 });
 
 $('#timer').countdown('2024/8/1', function(e) {
