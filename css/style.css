@@ -1,9 +1,19 @@
 /* Import the font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap');
 
 :root {
-    --font-family: 'Roboto', sans-serif;
+    --font-family: "Playwrite AU TAS", cursive;
     --background-color: #d62e3399;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 60px;
+}
+* {
+    font-family: var(--font-family);
 }
 .btn {
     background-color: var(--background-color);
@@ -22,12 +32,11 @@
 } 
 
 .head {
-
     background-color: var(--background-color);
 }
 
 .ml-25 {
-    margin-left: 25%;
+    margin-left: 250px;
 }
 .text-center #menu-open {
     position: absolute;
@@ -38,7 +47,7 @@
 
 
 .menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -47,12 +56,18 @@
       
 
 
-ul {
+ul, a {
     list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: var(--background-color);
 }
 .menu ul li{
     padding-top: 2rem;
     font-size: 2rem;
+    
 }
 
 .social-list i {
@@ -81,15 +96,23 @@ ul {
     background-position: center center;
     background-size: 100% 100%;
     position: relative;
-    height: 330px;
+    height: 350px;
 }
 
 .item {
     border: 3px blanchedalmond solid;
-    padding: 50px
+    padding: 50px;
+    margin: 10px;
+    
 }
 
 .singer, #timer,#singer, .contact {
     margin-top: 5%;
     padding-bottom: 20px;
 }
+
+@media (max-width: 769px) {
+    #timer {
+      height: 100%;
+    }
+  }
